@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Shafqat Hayat | Software Engineering Portfolio</title>
+    <meta name="description" content="Portfolio of Shafqat Hayat, a Software Engineering student focused on web development and business automation solutions.">
+    
+    <meta property="og:title" content="Shafqat Hayat Portfolio">
+    <meta property="og:description" content="BSSE Student & Web Developer">
+    <meta property="og:type" content="website">
+
+    <style>
+        /* Small styling just to make it readable while you work on HTML */
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
+        header, section, footer { margin-bottom: 40px; border-bottom: 1px solid #ccc; padding-bottom: 20px; }
+        nav ul { display: flex; list-style: none; padding: 0; gap: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shafqat Hayat</h1>
+        <p>Software Engineering Student (BSSE)</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a dedicated Software Engineering student pursuing my BSSE. 
+                I specialize in building functional web applications and 
+                automating business processes, such as digital sales ledgers 
+                and inventory management systems.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            
+            <article>
+                <h3>Business Sales Ledger</h3>
+                <p>A digital system designed to track daily sales and pending amounts for retail shops.</p>
+            </article>
+
+            <article>
+                <h3>Sanitary Shop Application</h3>
+                <p>A mobile-responsive interface concept for managing sanitary item inventories.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form action="#">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="user_name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="user_email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="msg">Message:</label><br>
+                    <textarea id="msg" name="user_message" rows="4" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shafqat Hayat. All rights reserved.</p>
+        <p>Follow me on <a href="https://github.com">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
